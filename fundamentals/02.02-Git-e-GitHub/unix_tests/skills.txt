@@ -6,5 +6,6 @@ CSS
 JavaScript
 React
 SQL
+Python
 Soft Skills
 Typescript
