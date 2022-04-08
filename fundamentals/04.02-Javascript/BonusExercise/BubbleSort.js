@@ -13,6 +13,7 @@ for (let k = 1; k < numbers.length; k++) {
             numbers[j]     = numbers[j + 1];
             numbers[j + 1] = aux;
         }
-        console.log(numbers);
     }
 }
+
+console.log(numbers);
