@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe Trip</title>
+</head>
+<body>
+    <header>Formulario de Trybe Trip</header>
+    <main>
+        <form action="" method="post">
+            <label for="idTxtNome">Nome Completo:<input type="text" name="txtNome" id="idTxtNome" minlength="10" maxlength="40"></label>
+            <br>
+            <label for="idTxtEmail">E-mail:<input type="E-mail" name="txtEmail" id="idTxtEmail" minlength="10" maxlength="50"></label>
+            <br>
+            <label for="destino1">
+                <input type="radio" name="radioModo" id="destino1" value="cidade">Cidade
+            </label>
+            <label for="destino2">
+                <input type="radio" name="radioModo" id="destino2" value="campo">Campo
+            </label>
+            <label for="destino3">
+                <input type="radio" name="radioModo" id="destino3" value="praia">Praia
+            </label>
+            <label for="destino4">
+                <input type="radio" name="radioModo" id="destino4" value="montanhas">Montanhas
+            </label>
+            <br>
+            <textarea name="txtAreaPorque" id="idTxtAreaPorque" cols="30" rows="10" maxlength="500" placeholder="Digite porque merece essa viagem"></textarea>
+            <br>
+            <input type="date" name="dateMelhor" id="melhor-data">
+            <br>
+            <label for="checkPromocoes">
+                <input type="checkbox" name="promocoes" id="checkPromocoes">Saber sobre futuras promoções
+            </label>
+            <br>
+            <label for="checkConcursos">
+                <input type="checkbox" name="concursos" id="checkConcursos">Saber sobre futuros concursos
+            </label>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
