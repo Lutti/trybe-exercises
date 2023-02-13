@@ -1,6 +1,10 @@
 abstract class Character {
     abstract talk(): void;
     abstract specialMove(): void;
+    static ExecutarAcoes (char: Character) : void {
+        char.talk();
+        char.specialMove();
+    }
 }
 
 class MeleeCharacter extends Character {
@@ -32,3 +36,5 @@ const p2 = new LongRangeCharacter();
 falarEUsarSpecial(p1);
 falarEUsarSpecial(p2);
 
+Character.ExecutarAcoes(p1);
+Character.ExecutarAcoes(p2);
